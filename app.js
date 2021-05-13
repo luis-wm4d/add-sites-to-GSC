@@ -60,7 +60,7 @@ const CREDENTIALS_PATH = "./credentials.json";
   });
 }
 
- // Get sites using Google search console
+ // Add sites to Google search console
  const getSites = async (auth) => {
 
   const webmater = google.webmasters({version: 'v3', auth});
